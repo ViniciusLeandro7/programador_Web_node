@@ -1,7 +1,7 @@
-.opcoes{
+.menu1{
     display: flex;
 }
-.opcao{
+.menu{
     font-family: 16px;
     display: flex;
     justify-content: center;

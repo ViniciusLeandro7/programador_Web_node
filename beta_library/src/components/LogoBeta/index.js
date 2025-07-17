@@ -1,7 +1,7 @@
 import logo from '../../img/logo.svg';
 import './style.css' 
 
-function Logo () {
+function LogoBeta () {
     return (
         <div className='logo'>
             <img src={logo} alt='Alfala books logo'></img>
@@ -9,4 +9,4 @@ function Logo () {
       </div>
     )
 }
-export default Logo;
+export default LogoBeta;

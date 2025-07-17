@@ -1,12 +1,12 @@
 import './styles.css'
 
-import perfil from '../../img/perfil.svg'
-import sacola from '../../img/sacola.svg'
+// import perfil from '../../img/perfil.svg'
+// import sacola from '../../img/sacola.sv'
 
 
-const icones = [perfil, sacola]
+// const icones = [perfil, sacola]
 
-function IconesHeader() {
+function IconesMenu() {
     return (
         <ul className='icones'>
             {icones.map((icone) => (
@@ -18,4 +18,4 @@ function IconesHeader() {
     )
 }
 
-export default IconesHeader
+export default IconesMenu
