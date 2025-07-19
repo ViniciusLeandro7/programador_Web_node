@@ -1,21 +1,27 @@
-import './App.css';
+import Header from './components/Header';
+import styled from 'styled-components'
+import Pesquisa from './components/Pesquisa';
+
+ const AppContainer = styled.div `
+    width: 100vw;
+    min-height: 100vh;
+    
+
+    li {
+    list-style: none;
+}
+ `
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Beta Library - sua biblioteca digital moderna
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
-    </div>
+    <AppContainer className="App">
+     <Header />
+     <Pesquisa />
+     
+    </AppContainer>
+    
   );
 }
 

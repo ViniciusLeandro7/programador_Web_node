@@ -1,12 +1,12 @@
-import './styles.css'
+import './style.css'
 
-// import perfil from '../../img/perfil.svg'
-// import sacola from '../../img/sacola.sv'
+import estante from '../../img/estante.svg'
+import livro from '../../img/livro.svg'
 
 
-// const icones = [perfil, sacola]
+const icones = [estante, livro]
 
-function IconesMenu() {
+function IconesHeader() {
     return (
         <ul className='icones'>
             {icones.map((icone) => (
@@ -18,4 +18,4 @@ function IconesMenu() {
     )
 }
 
-export default IconesMenu
+export default IconesHeader

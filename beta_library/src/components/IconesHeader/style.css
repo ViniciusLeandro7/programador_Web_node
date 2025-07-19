@@ -1,5 +1,6 @@
 .icones{
     display: flex;
+    gap: 100px;
     align-items: center;
 }
 .icone{
